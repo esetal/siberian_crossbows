@@ -1,0 +1,10 @@
+Pillow
+bs4
+markovipy==0.3.0
+names==0.3.0
+random-username==1.0.2
+chardet==3.0.4
+Naked==0.1.31
+pycryptodomex==3.9.1
+PyYAML==5.1.2
+

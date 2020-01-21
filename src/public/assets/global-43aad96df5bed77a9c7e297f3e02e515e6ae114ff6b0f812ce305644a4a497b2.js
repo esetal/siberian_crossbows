@@ -1,0 +1,1 @@
+document.addEventListener("turbolinks:load",function(){var n=document.querySelector(".global-notification");n&&window.setTimeout(function(){n.style.display="none"},4e3)});

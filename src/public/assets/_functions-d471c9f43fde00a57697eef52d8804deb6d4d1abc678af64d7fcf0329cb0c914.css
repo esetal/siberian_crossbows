@@ -1,0 +1,732 @@
+/* line 1, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+:root {
+  --spacing-none: 0;
+  --spacing-extra-small: .25rem;
+  --spacing-small: .5rem;
+  --spacing-medium: 1rem;
+  --spacing-large: 2rem;
+  --spacing-extra-large: 4rem;
+  --spacing-extra-extra-large: 8rem;
+  --spacing-extra-extra-extra-large: 16rem;
+}
+
+/* Functional Styles: http://tachyons.io/docs/ */
+/* Padding http://tachyons.io/docs/layout/spacing/ */
+/* line 15, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.pa0 {
+  padding: var(--spacing-none);
+}
+
+/* line 16, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.pa1 {
+  padding: var(--spacing-extra-small);
+}
+
+/* line 17, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.pa2 {
+  padding: var(--spacing-small);
+}
+
+/* line 18, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.pa3 {
+  padding: var(--spacing-medium);
+}
+
+/* line 19, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.pa4 {
+  padding: var(--spacing-large);
+}
+
+/* line 20, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.pa5 {
+  padding: var(--spacing-extra-large);
+}
+
+/* line 21, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.pa6 {
+  padding: var(--spacing-extra-extra-large);
+}
+
+/* line 22, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.pa7 {
+  padding: var(--spacing-extra-extra-extra-large);
+}
+
+/* line 24, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.pl0 {
+  padding-left: var(--spacing-none);
+}
+
+/* line 25, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.pl1 {
+  padding-left: var(--spacing-extra-small);
+}
+
+/* line 26, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.pl2 {
+  padding-left: var(--spacing-small);
+}
+
+/* line 27, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.pl3 {
+  padding-left: var(--spacing-medium);
+}
+
+/* line 28, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.pl4 {
+  padding-left: var(--spacing-large);
+}
+
+/* line 29, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.pl5 {
+  padding-left: var(--spacing-extra-large);
+}
+
+/* line 30, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.pl6 {
+  padding-left: var(--spacing-extra-extra-large);
+}
+
+/* line 31, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.pl7 {
+  padding-left: var(--spacing-extra-extra-extra-large);
+}
+
+/* line 33, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.pr0 {
+  padding-right: var(--spacing-none);
+}
+
+/* line 34, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.pr1 {
+  padding-right: var(--spacing-extra-small);
+}
+
+/* line 35, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.pr2 {
+  padding-right: var(--spacing-small);
+}
+
+/* line 36, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.pr3 {
+  padding-right: var(--spacing-medium);
+}
+
+/* line 37, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.pr4 {
+  padding-right: var(--spacing-large);
+}
+
+/* line 38, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.pr5 {
+  padding-right: var(--spacing-extra-large);
+}
+
+/* line 39, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.pr6 {
+  padding-right: var(--spacing-extra-extra-large);
+}
+
+/* line 40, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.pr7 {
+  padding-right: var(--spacing-extra-extra-extra-large);
+}
+
+/* line 42, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.pb0 {
+  padding-bottom: var(--spacing-none);
+}
+
+/* line 43, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.pb1 {
+  padding-bottom: var(--spacing-extra-small);
+}
+
+/* line 44, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.pb2 {
+  padding-bottom: var(--spacing-small);
+}
+
+/* line 45, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.pb3 {
+  padding-bottom: var(--spacing-medium);
+}
+
+/* line 46, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.pb4 {
+  padding-bottom: var(--spacing-large);
+}
+
+/* line 47, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.pb5 {
+  padding-bottom: var(--spacing-extra-large);
+}
+
+/* line 48, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.pb6 {
+  padding-bottom: var(--spacing-extra-extra-large);
+}
+
+/* line 49, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.pb7 {
+  padding-bottom: var(--spacing-extra-extra-extra-large);
+}
+
+/* line 51, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.pt0 {
+  padding-top: var(--spacing-none);
+}
+
+/* line 52, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.pt1 {
+  padding-top: var(--spacing-extra-small);
+}
+
+/* line 53, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.pt2 {
+  padding-top: var(--spacing-small);
+}
+
+/* line 54, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.pt3 {
+  padding-top: var(--spacing-medium);
+}
+
+/* line 55, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.pt4 {
+  padding-top: var(--spacing-large);
+}
+
+/* line 56, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.pt5 {
+  padding-top: var(--spacing-extra-large);
+}
+
+/* line 57, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.pt6 {
+  padding-top: var(--spacing-extra-extra-large);
+}
+
+/* line 58, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.pt7 {
+  padding-top: var(--spacing-extra-extra-extra-large);
+}
+
+/* line 60, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.pv0 {
+  padding-top: var(--spacing-none);
+  padding-bottom: var(--spacing-none);
+}
+
+/* line 64, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.pv1 {
+  padding-top: var(--spacing-extra-small);
+  padding-bottom: var(--spacing-extra-small);
+}
+
+/* line 68, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.pv2 {
+  padding-top: var(--spacing-small);
+  padding-bottom: var(--spacing-small);
+}
+
+/* line 72, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.pv3 {
+  padding-top: var(--spacing-medium);
+  padding-bottom: var(--spacing-medium);
+}
+
+/* line 76, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.pv4 {
+  padding-top: var(--spacing-large);
+  padding-bottom: var(--spacing-large);
+}
+
+/* line 80, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.pv5 {
+  padding-top: var(--spacing-extra-large);
+  padding-bottom: var(--spacing-extra-large);
+}
+
+/* line 84, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.pv6 {
+  padding-top: var(--spacing-extra-extra-large);
+  padding-bottom: var(--spacing-extra-extra-large);
+}
+
+/* line 89, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.pv7 {
+  padding-top: var(--spacing-extra-extra-extra-large);
+  padding-bottom: var(--spacing-extra-extra-extra-large);
+}
+
+/* line 94, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.ph0 {
+  padding-left: var(--spacing-none);
+  padding-right: var(--spacing-none);
+}
+
+/* line 99, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.ph1 {
+  padding-left: var(--spacing-extra-small);
+  padding-right: var(--spacing-extra-small);
+}
+
+/* line 104, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.ph2 {
+  padding-left: var(--spacing-small);
+  padding-right: var(--spacing-small);
+}
+
+/* line 109, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.ph3 {
+  padding-left: var(--spacing-medium);
+  padding-right: var(--spacing-medium);
+}
+
+/* line 114, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.ph4 {
+  padding-left: var(--spacing-large);
+  padding-right: var(--spacing-large);
+}
+
+/* line 119, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.ph5 {
+  padding-left: var(--spacing-extra-large);
+  padding-right: var(--spacing-extra-large);
+}
+
+/* line 124, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.ph6 {
+  padding-left: var(--spacing-extra-extra-large);
+  padding-right: var(--spacing-extra-extra-large);
+}
+
+/* line 129, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.ph7 {
+  padding-left: var(--spacing-extra-extra-extra-large);
+  padding-right: var(--spacing-extra-extra-extra-large);
+}
+
+/* line 133, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.ma0 {
+  margin: var(--spacing-none);
+}
+
+/* line 134, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.ma1 {
+  margin: var(--spacing-extra-small);
+}
+
+/* line 135, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.ma2 {
+  margin: var(--spacing-small);
+}
+
+/* line 136, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.ma3 {
+  margin: var(--spacing-medium);
+}
+
+/* line 137, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.ma4 {
+  margin: var(--spacing-large);
+}
+
+/* line 138, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.ma5 {
+  margin: var(--spacing-extra-large);
+}
+
+/* line 139, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.ma6 {
+  margin: var(--spacing-extra-extra-large);
+}
+
+/* line 140, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.ma7 {
+  margin: var(--spacing-extra-extra-extra-large);
+}
+
+/* line 142, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.ml0 {
+  margin-left: var(--spacing-none);
+}
+
+/* line 143, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.ml1 {
+  margin-left: var(--spacing-extra-small);
+}
+
+/* line 144, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.ml2 {
+  margin-left: var(--spacing-small);
+}
+
+/* line 145, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.ml3 {
+  margin-left: var(--spacing-medium);
+}
+
+/* line 146, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.ml4 {
+  margin-left: var(--spacing-large);
+}
+
+/* line 147, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.ml5 {
+  margin-left: var(--spacing-extra-large);
+}
+
+/* line 148, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.ml6 {
+  margin-left: var(--spacing-extra-extra-large);
+}
+
+/* line 149, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.ml7 {
+  margin-left: var(--spacing-extra-extra-extra-large);
+}
+
+/* line 151, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.mr0 {
+  margin-right: var(--spacing-none);
+}
+
+/* line 152, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.mr1 {
+  margin-right: var(--spacing-extra-small);
+}
+
+/* line 153, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.mr2 {
+  margin-right: var(--spacing-small);
+}
+
+/* line 154, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.mr3 {
+  margin-right: var(--spacing-medium);
+}
+
+/* line 155, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.mr4 {
+  margin-right: var(--spacing-large);
+}
+
+/* line 156, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.mr5 {
+  margin-right: var(--spacing-extra-large);
+}
+
+/* line 157, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.mr6 {
+  margin-right: var(--spacing-extra-extra-large);
+}
+
+/* line 158, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.mr7 {
+  margin-right: var(--spacing-extra-extra-extra-large);
+}
+
+/* line 160, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.mb0 {
+  margin-bottom: var(--spacing-none);
+}
+
+/* line 161, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.mb1 {
+  margin-bottom: var(--spacing-extra-small);
+}
+
+/* line 162, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.mb2 {
+  margin-bottom: var(--spacing-small);
+}
+
+/* line 163, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.mb3 {
+  margin-bottom: var(--spacing-medium);
+}
+
+/* line 164, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.mb4 {
+  margin-bottom: var(--spacing-large);
+}
+
+/* line 165, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.mb5 {
+  margin-bottom: var(--spacing-extra-large);
+}
+
+/* line 166, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.mb6 {
+  margin-bottom: var(--spacing-extra-extra-large);
+}
+
+/* line 167, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.mb7 {
+  margin-bottom: var(--spacing-extra-extra-extra-large);
+}
+
+/* line 169, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.mt0 {
+  margin-top: var(--spacing-none);
+}
+
+/* line 170, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.mt1 {
+  margin-top: var(--spacing-extra-small);
+}
+
+/* line 171, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.mt2 {
+  margin-top: var(--spacing-small);
+}
+
+/* line 172, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.mt3 {
+  margin-top: var(--spacing-medium);
+}
+
+/* line 173, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.mt4 {
+  margin-top: var(--spacing-large);
+}
+
+/* line 174, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.mt5 {
+  margin-top: var(--spacing-extra-large);
+}
+
+/* line 175, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.mt6 {
+  margin-top: var(--spacing-extra-extra-large);
+}
+
+/* line 176, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.mt7 {
+  margin-top: var(--spacing-extra-extra-extra-large);
+}
+
+/* line 178, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.mv0 {
+  margin-top: var(--spacing-none);
+  margin-bottom: var(--spacing-none);
+}
+
+/* line 182, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.mv1 {
+  margin-top: var(--spacing-extra-small);
+  margin-bottom: var(--spacing-extra-small);
+}
+
+/* line 186, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.mv2 {
+  margin-top: var(--spacing-small);
+  margin-bottom: var(--spacing-small);
+}
+
+/* line 190, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.mv3 {
+  margin-top: var(--spacing-medium);
+  margin-bottom: var(--spacing-medium);
+}
+
+/* line 194, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.mv4 {
+  margin-top: var(--spacing-large);
+  margin-bottom: var(--spacing-large);
+}
+
+/* line 198, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.mv5 {
+  margin-top: var(--spacing-extra-large);
+  margin-bottom: var(--spacing-extra-large);
+}
+
+/* line 202, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.mv6 {
+  margin-top: var(--spacing-extra-extra-large);
+  margin-bottom: var(--spacing-extra-extra-large);
+}
+
+/* line 206, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.mv7 {
+  margin-top: var(--spacing-extra-extra-extra-large);
+  margin-bottom: var(--spacing-extra-extra-extra-large);
+}
+
+/* line 211, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.mh0 {
+  margin-left: var(--spacing-none);
+  margin-right: var(--spacing-none);
+}
+
+/* line 215, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.mh1 {
+  margin-left: var(--spacing-extra-small);
+  margin-right: var(--spacing-extra-small);
+}
+
+/* line 219, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.mh2 {
+  margin-left: var(--spacing-small);
+  margin-right: var(--spacing-small);
+}
+
+/* line 223, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.mh3 {
+  margin-left: var(--spacing-medium);
+  margin-right: var(--spacing-medium);
+}
+
+/* line 227, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.mh4 {
+  margin-left: var(--spacing-large);
+  margin-right: var(--spacing-large);
+}
+
+/* line 231, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.mh5 {
+  margin-left: var(--spacing-extra-large);
+  margin-right: var(--spacing-extra-large);
+}
+
+/* line 235, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.mh6 {
+  margin-left: var(--spacing-extra-extra-large);
+  margin-right: var(--spacing-extra-extra-large);
+}
+
+/* line 239, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.mh7 {
+  margin-left: var(--spacing-extra-extra-extra-large);
+  margin-right: var(--spacing-extra-extra-extra-large);
+}
+
+/* Color */
+/* line 245, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.bg-gray {
+  background-color: #f8f8f8;
+}
+
+/* Font Size */
+/* line 248, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.f1 {
+  font-size: 3rem;
+}
+
+/* line 249, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.f2 {
+  font-size: 2.25rem;
+}
+
+/* line 250, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.f3 {
+  font-size: 1.5rem;
+}
+
+/* line 251, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.f4 {
+  font-size: 1.25rem;
+}
+
+/* line 252, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.f5 {
+  font-size: 1rem;
+}
+
+/* line 253, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.f6 {
+  font-size: .875rem;
+}
+
+/* line 254, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.f7 {
+  font-size: .75rem;
+}
+
+/* Small and hard to read for many people so use with extreme caution */
+/* Font Weight */
+/* line 257, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.fw4 {
+  font-weight: 400;
+}
+
+/* line 258, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.fw5 {
+  font-weight: 500;
+}
+
+/* line 259, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.fw6 {
+  font-weight: 600;
+}
+
+/* line 260, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.fw7 {
+  font-weight: 600;
+}
+
+/* Border */
+/* line 263, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.border-light {
+  border: 1px solid #dddddd;
+}
+
+/* line 264, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.border {
+  border: 1px solid #dedede;
+}
+
+/* line 265, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.border-bottom {
+  border-bottom: 1px solid #dddddd;
+}
+
+/* line 266, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.border-top {
+  border-top: 1px solid #dddddd;
+}
+
+/* line 267, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.border-right {
+  border-right: 1px solid #dddddd;
+}
+
+/* line 269, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.border-radius-3 {
+  border-radius: 3px;
+}
+
+/* line 271, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.justify-center {
+  justify-content: center;
+}
+
+/* line 272, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.align-items-center {
+  align-items: center;
+}
+
+/* Display */
+/* line 275, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.inline-block {
+  display: inline-block;
+}
+
+/* line 276, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.block {
+  display: block;
+}
+
+/* Background */
+/* line 279, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.bg-white {
+  background-color: white;
+}
+
+/* line 280, /Users/m.bragin/siberian_crossbows/app/assets/stylesheets/_functions.scss */
+.bg-light {
+  background-color: #F1F1F1;
+}

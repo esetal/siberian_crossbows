@@ -1,0 +1,45 @@
+<% content_for :header do %>
+<section class="hero is-info">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+        Siberian Crossbows Marketplace
+      </h1>
+    </div>
+  </div>
+</section>
+<% end %>
+
+<div class="crossbow-index-grid pt4">
+  <% @crossbows.each do |crossbow| %>
+
+    <div class="crossbow border-light">
+      <div class="crossbow-thumb">
+      <% if crossbow.image_url %>
+      <%= link_to image_tag(crossbow.image_url(:thumb)), crossbow %>
+      <% end %>
+      <% if crossbow.condition? %>
+        <div class="condition">
+          <span class="tag is-dark"><%= crossbow.condition %></span>
+        </div>
+      <% end %>
+      </div>
+
+
+    <div class="pa3">
+
+      <h3 class="fw7 f4 title"><%= link_to crossbow.title, crossbow %></h3>
+
+      <p class="has-text-gray fg pt1">Sold by <%= crossbow.user.name %></p>
+
+      <p class="f3 fw6 has-text-right pt2 price"><%= number_to_currency(crossbow.price) %></p>
+
+      <% if crossbow_author(crossbow) %>
+         <%= link_to 'Edit', edit_crossbow_path(crossbow), class: "button is-small" %>
+         <%= link_to 'Delete', crossbow, method: :delete, data: { confirm: "Are you sure ?" }, class: "button is-small" %>
+      <% end %>
+
+    </div>
+  </div>
+  <% end %>
+</div>
